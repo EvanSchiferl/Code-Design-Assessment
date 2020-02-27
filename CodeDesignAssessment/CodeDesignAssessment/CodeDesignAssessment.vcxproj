@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="tList.h" />
+    <ClInclude Include="tLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hashTable.cpp" />

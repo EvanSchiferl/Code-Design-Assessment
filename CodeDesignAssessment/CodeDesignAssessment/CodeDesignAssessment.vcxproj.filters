@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tList.h">
+    <ClInclude Include="tLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,6 +2,7 @@
 #include <list>
 #include <cstring>
 #include <string>
+#include "tLinkedList.h"
 using namespace std;
 
 
@@ -18,7 +19,7 @@ public:
 	int hashFunction(int key);
 	void insertItem(int key, string value);
 	void removeItem(int key);
-	string searchTable(int key);
+	string searchTable(int key, string value);
 	void printTable();
 
 };
@@ -90,7 +91,7 @@ void hashTable::removeItem(int key)
 
 	if (!keyExists)
 	{
-		cout << "Item missing." << endl;
+		cout << "Item exists already." << endl;
 	}
 
 	return;
@@ -110,6 +111,31 @@ void hashTable::printTable()
 	}
 
 	return;
+}
+
+//pulls value from hashtable if value exists
+string hashTable::searchTable(int key, string value)
+{
+	int hashValue = hashFunction(key);
+	auto& cell = table[hashValue];
+	auto bItr = begin(cell);
+	bool keyExists = false;
+
+	for (; bItr != end(cell); bItr++)
+	{
+		if (bItr->first == key)
+		{
+			keyExists = true;
+			bItr->second = value;
+			cout << bItr->first << ", " << bItr->second << endl;
+			cout << "Value pulled." << endl;
+		}
+		else cout << "Value does not exist" << endl;
+		
+		break;
+		return 0;
+	}
+	
 }
 
 int main()
@@ -140,6 +166,9 @@ int main()
 	HT.removeItem(849);
 	HT.removeItem(333);
 
+	string print = HT.searchTable(999, "Carl");
+
+
 	if (HT.isEmpty())
 	{
 		cout << "Check the code!" << endl;
@@ -150,6 +179,13 @@ int main()
 	}
 
 	getchar();
+
+	tForwardList<string> FL;
+
+	FL.push_front("Cat");
+
+
+
 
 	return 0;
 
