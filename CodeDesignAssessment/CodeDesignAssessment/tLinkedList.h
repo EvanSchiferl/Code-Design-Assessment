@@ -34,17 +34,36 @@ public:
 
 	tForwardList& operator= (const tForwardList &rhs)
 	{
-
+		Node *tmp = new Node;
+		tmp->data = value;
+		tmp->next = NULL;
+		if (head == NULL)
+		{
+			head = tmp;
+			tail = tmp;
+			tmp = NULL;
+		}
+		else
+		{
+			tail->next = tmp;
+			tail = tmp;
+		}
 	}
 
 	bool empty() const
 	{
-
+		Node *tmp = new Node;
+		tmp = head;
+		while (tmp != NULL)
+		{
+			std::cout << tmp->data << "\t";
+			tmp = tmp->next;
+		}
 	}
 
 	void clear()
 	{
-
+		
 	}
 
 	void resize(size_t newSize)
@@ -65,14 +84,17 @@ public:
 	void push_front(const T& val)
 	{
 		Node *tmp = new Node();
-		tmp->data = n;
+		tmp->data = next;
 		tmp->next = head;
 		head = tmp;
 	}
 
 	void pop_front()
 	{
-		
+		Node *tmp = new Node;
+		tmp = head;
+		head = head->next;
+		delete tmp;
 	}
 
 	const T& front() const
@@ -82,7 +104,17 @@ public:
 
 	void remove(const T& val)
 	{
-
+		Node *cur = new Node;
+		Node *pre = new Node;
+		cur = head;
+		while (cur->next != NULL)
+		{
+			pre = cur;
+			cur = cur->next;
+		}
+		tail = pre;
+		pre->next = NULL;
+		delete cur;
 	}
 
 	T& front()

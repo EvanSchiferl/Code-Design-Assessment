@@ -1,95 +1,28 @@
 ﻿  hashTable.cpp
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(36): error C2535: 'tForwardList<T> &tForwardList<T>::operator =(const tForwardList<T> &)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(8): note: see declaration of 'tForwardList<T>::operator ='
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(163): note: see reference to class template instantiation 'tForwardList<T>' being compiled
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(41): error C2535: 'bool tForwardList<T>::empty(void) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(9): note: see declaration of 'tForwardList<T>::empty'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(46): error C2535: 'void tForwardList<T>::clear(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(10): note: see declaration of 'tForwardList<T>::clear'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(51): error C2535: 'void tForwardList<T>::resize(size_t)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(11): note: see declaration of 'tForwardList<T>::resize'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(55): error C2535: 'tForwardList<T>::tForwardList(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(22): note: see declaration of 'tForwardList<T>::tForwardList'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(61): error C2535: 'tForwardList<T>::~tForwardList(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(23): note: see declaration of 'tForwardList<T>::~tForwardList'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(66): error C2535: 'void tForwardList<T>::push_front(const T &)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(26): note: see declaration of 'tForwardList<T>::push_front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(74): error C2535: 'void tForwardList<T>::pop_front(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(27): note: see declaration of 'tForwardList<T>::pop_front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(79): error C2535: 'const T &tForwardList<T>::front(void) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(30): note: see declaration of 'tForwardList<T>::front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(84): error C2535: 'void tForwardList<T>::remove(const T &)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(32): note: see declaration of 'tForwardList<T>::remove'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(89): error C2535: 'T &tForwardList<T>::front(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(29): note: see declaration of 'tForwardList<T>::front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(101): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(148): note: see reference to class template instantiation 'tForwardList<T>::const_iterator' being compiled
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(101): error C2143: syntax error: missing ',' before '&'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(110): error C2535: 'tForwardList<T>::const_iterator::const_iterator(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(99): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(115): error C2535: 'tForwardList<T>::const_iterator::const_iterator(tForwardList<T>::Node *)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(100): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(120): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(120): error C2143: syntax error: missing ',' before '&'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(120): error C2535: 'tForwardList<T>::const_iterator::const_iterator(const int)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(101): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(126): error C2535: 'bool tForwardList<T>::const_iterator::operator ==(const tForwardList<T>::const_iterator &) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(103): note: see declaration of 'tForwardList<T>::const_iterator::operator =='
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(131): error C2535: 'bool tForwardList<T>::const_iterator::operator !=(const tForwardList<T>::const_iterator &) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(104): note: see declaration of 'tForwardList<T>::const_iterator::operator !='
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(136): error C2535: 'T &tForwardList<T>::const_iterator::operator *(void) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(105): note: see declaration of 'tForwardList<T>::const_iterator::operator *'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(141): error C2535: 'tForwardList<T>::const_iterator &tForwardList<T>::const_iterator::operator ++(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(106): note: see declaration of 'tForwardList<T>::const_iterator::operator ++'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(146): error C2535: 'tForwardList<T>::const_iterator tForwardList<T>::const_iterator::operator ++(int)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(107): note: see declaration of 'tForwardList<T>::const_iterator::operator ++'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(161): error C2535: 'tForwardList<T>::const_iterator tForwardList<T>::cbegin(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(151): note: see declaration of 'tForwardList<T>::cbegin'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(162): error C2535: 'tForwardList<T>::const_iterator tForwardList<T>::cend(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(156): note: see declaration of 'tForwardList<T>::cend'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(68): error C3861: 'n': identifier not found
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(80): error C2760: syntax error: unexpected token 'const', expected ';'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\hashtable.cpp(33): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(36): error C2535: 'tForwardList<std::string> &tForwardList<std::string>::operator =(const tForwardList<std::string> &)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(8): note: see declaration of 'tForwardList<std::string>::operator ='
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\hashtable.cpp(183): note: see reference to class template instantiation 'tForwardList<std::string>' being compiled
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(41): error C2535: 'bool tForwardList<std::string>::empty(void) const': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(9): note: see declaration of 'tForwardList<std::string>::empty'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(46): error C2535: 'void tForwardList<std::string>::clear(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(10): note: see declaration of 'tForwardList<std::string>::clear'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(51): error C2535: 'void tForwardList<std::string>::resize(size_t)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(11): note: see declaration of 'tForwardList<std::string>::resize'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(55): error C2535: 'tForwardList<std::string>::tForwardList(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(22): note: see declaration of 'tForwardList<std::string>::tForwardList'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(61): error C2535: 'tForwardList<std::string>::~tForwardList(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(23): note: see declaration of 'tForwardList<std::string>::~tForwardList'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(66): error C2535: 'void tForwardList<std::string>::push_front(const T &)': member function already defined or declared
-          with
-          [
-              T=std::string
-          ]
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(26): note: see declaration of 'tForwardList<std::string>::push_front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(74): error C2535: 'void tForwardList<std::string>::pop_front(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(27): note: see declaration of 'tForwardList<std::string>::pop_front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(79): error C2535: 'const T &tForwardList<T>::front(void) const': member function already defined or declared
-          with
-          [
-              T=std::string
-          ]
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(30): note: see declaration of 'tForwardList<std::string>::front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(84): error C2535: 'void tForwardList<std::string>::remove(const T &)': member function already defined or declared
-          with
-          [
-              T=std::string
-          ]
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(32): note: see declaration of 'tForwardList<std::string>::remove'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(89): error C2535: 'T &tForwardList<T>::front(void)': member function already defined or declared
-          with
-          [
-              T=std::string
-          ]
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(29): note: see declaration of 'tForwardList<std::string>::front'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(161): error C2535: 'tForwardList<std::string>::const_iterator tForwardList<std::string>::cbegin(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(151): note: see declaration of 'tForwardList<std::string>::cbegin'
-c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(162): error C2535: 'tForwardList<std::string>::const_iterator tForwardList<std::string>::cend(void)': member function already defined or declared
-  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(156): note: see declaration of 'tForwardList<std::string>::cend'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(45): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(92): note: see reference to class template instantiation 'tForwardList<T>::const_iterator' being compiled
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(105): note: see reference to class template instantiation 'tForwardList<T>' being compiled
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(45): error C2143: syntax error: missing ',' before '&'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(54): error C2535: 'tForwardList<T>::const_iterator::const_iterator(void)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(43): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(59): error C2535: 'tForwardList<T>::const_iterator::const_iterator(tForwardList<T>::Node *)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(44): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(64): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(64): error C2143: syntax error: missing ',' before '&'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(64): error C2535: 'tForwardList<T>::const_iterator::const_iterator(const int)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(45): note: see declaration of 'tForwardList<T>::const_iterator::const_iterator'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(70): error C2535: 'bool tForwardList<T>::const_iterator::operator ==(const tForwardList<T>::const_iterator &) const': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(47): note: see declaration of 'tForwardList<T>::const_iterator::operator =='
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(75): error C2535: 'bool tForwardList<T>::const_iterator::operator !=(const tForwardList<T>::const_iterator &) const': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(48): note: see declaration of 'tForwardList<T>::const_iterator::operator !='
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(80): error C2535: 'T &tForwardList<T>::const_iterator::operator *(void) const': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(49): note: see declaration of 'tForwardList<T>::const_iterator::operator *'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(85): error C2535: 'tForwardList<T>::const_iterator &tForwardList<T>::const_iterator::operator ++(void)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(50): note: see declaration of 'tForwardList<T>::const_iterator::operator ++'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(90): error C2535: 'tForwardList<T>::const_iterator tForwardList<T>::const_iterator::operator ++(int)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\tlinkedlist.h(51): note: see declaration of 'tForwardList<T>::const_iterator::operator ++'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\highscoreentry.h(12): error C2535: 'highScoreEntry::highScoreEntry(void)': member function already defined or declared
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\highscoreentry.h(11): note: see declaration of 'highScoreEntry::highScoreEntry'
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\hashtable.cpp(35): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\hashtable.cpp(198): error C2374: 'topScores': redefinition; multiple initialization
+  c:\users\s199079\documents\code-design-assessment\codedesignassessment\codedesignassessment\hashtable.cpp(194): note: see declaration of 'topScores'

@@ -115,6 +115,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="highScoreEntry.h" />
+    <ClInclude Include="highScoreTable.h" />
     <ClInclude Include="tLinkedList.h" />
   </ItemGroup>
   <ItemGroup>

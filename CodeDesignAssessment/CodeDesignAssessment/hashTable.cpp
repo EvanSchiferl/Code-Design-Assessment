@@ -2,7 +2,9 @@
 #include <list>
 #include <cstring>
 #include <string>
+#include <vector>
 #include "tLinkedList.h"
+#include "highScoreTable.h"
 using namespace std;
 
 
@@ -186,6 +188,49 @@ int main()
 
 
 
+
+	highScoreTable hst("highscores.txt");
+
+	std::vector<highScoreEntry> topScores = hst.topNNScores(10);
+
+	hst.pruneBottomNNScores(3);
+
+	std::vector<highScoreEntry> topScores = hst.topNNScores(10);
+
+
+	vector<int> v = { 1, 2, 3 };
+
+	vector<int>::iterator i;
+
+	int j;
+
+	for (i = v.begin(); i != v.end(); ++i) 
+	{
+		if (i == v.begin()) 
+		{
+			i = v.insert(i, 5); 
+		}
+	}
+
+	// v contains 5 1 2 3 
+
+	// Deleting a element using iterators 
+	for (i = v.begin(); i != v.end(); ++i) 
+	{
+		if (i == v.begin() + 1) 
+		{
+			i = v.erase(i);
+		}
+	}
+
+	// v contains 5 2 3 
+
+	// Accessing the elements using iterators 
+	for (i = v.begin(); i != v.end(); ++i)
+	{
+		cout << *i << " ";
+
+	}
 
 	return 0;
 
